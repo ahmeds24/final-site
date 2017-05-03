@@ -24,7 +24,6 @@ a{
 }
 
 #leftNav{
-	text-decoration: overline;
 	font-weight: 800;
 	font-size: 15px;
 	text-transform: uppercase;
@@ -39,10 +38,11 @@ a{
   display: flex;
   justify-content: flex-start;
 }
+
 nav {
   height: 12.5%;
   width: 95%;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0,1);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -75,6 +75,18 @@ nav {
   background-color: white;
 }
 
+#title{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5%;
+  font-weight: 700;
+ font-family: Arial, Helvetica, sans-serif;
+ font-family: "futura-pt";
+}
+
+#title span{
+  color: #ce7210;
+}
 
 .sectOne{
   background-image: url("sky1.jpg");
@@ -82,7 +94,7 @@ nav {
 }
 
 .sectTwo{
-  background-image: url("danger.jpg");
+  background-image: url("deer.jpg");
   height: 100%;
 
 }

@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <title>Ahmed Sheikh</title>
   <link rel="stylesheet" href="style.css"/>
+  <script src="jquery-3.2.1.min.js"></script>
+ <script src="app.js"></script>
 </head>
 <body>
   <nav class="containerNav">
@@ -11,36 +13,42 @@
       <a href="#" id="name"> Ahmed Sheikh </a>
     </nav>
     <nav id="leftNav">
-      <a href="#" class="left"> About Me </a>
-      <a href="#" class="left"> Work History</a>
-      <a href="#" class="left"> Skills </a>
-      <a href="#" class="left"> Contact </a>
+      <a id="about" href="#aboutSection"> About Me </a>
+      <a id="workHistory" href="#workHistorySection"> Work History</a>
+      <a id="skills" href="#skillsSection"> Skills </a>
+      <a id="contact" href="#contactSection"> Contact </a>
     </nav>
   </nav>
 
 
-  <div class="sect sectOne">
+  <div class="sect sectOne" id="nameSection">
   <!-- <p class="header">Ahmed Sheikh </p> -->
  </div>
 
 
-  <div class="subSection">
-    <div id="about">
+  <div class="subSection" id="aboutSection">
+    <div id="title"><h1><span>W</span>eb Developer // <span>M</span>arketing Automation Engineer // <span>D</span>ata Analyst</h1></div>
+  <div class="bioBox">
+    <div class="bio">
       <h4> ABOUT ME</h4>
     <p>Hello, my name is Ahmed Sheikh a young diverse technologist who cherishes the consistent change of innovation. I'm continually driving myself to take in more in the field of Information Technology and Computer Science. Not only do I have a growing passion in technology, but I also have passion in youth/community development and sports. I have been depicted by colleagues as a highly creative professional who can find new solution to problems. I've additionally been portrayed as a leader, and activator who is not afraid of failure. Also I’m a positive individual who has phenomenal communication skills, some say I’m just a natural people’s person. I may lack in experience desired but I have the passion to learn and grow everyday.</p>
     </div>
   </div>
+  </div>
 
 
-  <div class="sect sectTwo"> </div>
+  <div class="sect sectTwo" id="workHistorySection"> </div>
 
 
-  <div class="subSection"> </div>
+  <div class="subSection" id="skillsSection">
+    <div id="title"><h1>Skills</h1></div>
+
+  </div>
 
 
-  <div class="sect sectThree"> </div>
+  <div class="sect sectThree" id="contactSection"> </div>
 
 
-<div class="footer"> </div>
+<div class="footer" id="bottomSection"> </div>
 </body>
 </html>
